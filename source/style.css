@@ -1,4 +1,4 @@
-@import url(/source/reset.css);
+@import url(../source/reset.css);
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato&family=Open+Sans:wght@300;400;500&family=Red+Hat+Display:ital,wght@0,300;0,400;1,400&display=swap');
 
 body {
@@ -90,7 +90,7 @@ button {
  }
 
  button:hover {
-   background-position: right center; /* change the direction of the change here */
+   background-position: right center;
    color: #fff;
    text-decoration: none;
  }
