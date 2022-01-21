@@ -1,17 +1,13 @@
-var name = document.getElementById('name');
-
-
-var resultado = document.getElementById('resultado')
 
 function showImc() {
-    var peso = document.getElementById('peso')
-    var altura = document.getElementById('altura')
+    let resultado = document.getElementById('resultado')
+    let peso = document.getElementById('peso')
+    let altura = document.getElementById('altura')
 
-    var valorPeso = Number(peso.value)
-    var valorAltura = Number(altura.value)
+    let valorPeso = Number(peso.value)
+    let valorAltura = Number(altura.value)
 
-    var imc = (valorPeso/(valorAltura*valorAltura))*1000;
+    let imc = (valorPeso/(valorAltura*valorAltura));
 
     resultado.innerHTML = Number.parseInt(imc);
-    
 }
