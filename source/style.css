@@ -1,0 +1,75 @@
+@import url(/source/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato&family=Open+Sans:wght@300;400;500&family=Red+Hat+Display:ital,wght@0,300;0,400;1,400&display=swap');
+
+body {
+    font-family: 'Open sans', sans-serif;
+    margin: 0;
+}
+.content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    
+    background-color: rgb(232, 232, 236);
+    border-radius: 20px;
+}
+.dados__container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    margin-right: 25px;
+    padding: 20px;
+
+    width: 500px;
+    height: 300px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dados--title {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+.resultado__container {
+    text-align: center;
+    padding: 20px;
+
+    width: 200px;
+    height: 300px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.resultado__container h3 {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 28px;
+}
+.resultado__container h2 {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 60px;
+}
+.resultado--title {
+    font-weight: 600;
+}
+
+form {
+    height: 180px;
+}
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .dados__container {
+        height: 400px;
+    }
+    .resultado__container, .dados__container {
+        margin: 10px 0px;
+        width: 70vw;
+    }
+}
